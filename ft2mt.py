@@ -6,7 +6,7 @@ window.configure(background="light green")
 window.geometry("320x220")
 window.resizable(width=False,height=False)
 
-def convert():
+def convert():#convet feet into meter(vice vera conversion is a bit lengthy and fun ;))
     value = float(ft_entry.get())
     meter = value * 0.3048
     mt_value.set("%.4f" % meter)
